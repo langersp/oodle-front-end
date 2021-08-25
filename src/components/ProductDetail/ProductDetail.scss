@@ -1,0 +1,38 @@
+.product-detail {
+  padding: 2rem;
+
+  .product-details {
+    height: calc(100vh - 4rem);
+    border: none;
+    display: flex;
+    height: 100%;
+
+    &__image,
+    &__info {
+      flex: 1;
+    }
+
+    &__name {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin: 1rem 0;
+    }
+    
+    &__pairing {
+      margin-top: 2rem;
+      ul {
+        margin: 0;
+        padding: 1rem 0 0 1.2rem;
+      }
+    }
+
+    &__image {
+      display: flex;
+      justify-content: center;
+      img {
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
